@@ -1,0 +1,189 @@
+html,
+body,
+#app,
+#main {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background: #17212B;
+}
+#main.hidden {
+    display: none;
+}
+#app {
+    display: flex;
+    justify-content: center;
+}
+
+#main {
+    display: flex;
+}
+
+.left-side {
+    flex-grow: 1;
+    max-width: 320px;
+    background: #17212B;
+    color: #FEFEFD;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.user-info {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.user-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.user-photo,
+.message-item-photo {
+    margin-right: 15px;
+    background: url(./no-photo.png);
+    background-size: cover;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.user-list-header {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.user-list {
+    padding: 5px 0 0 10px
+}
+
+.right-side {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.messages-container {
+    flex-grow: 1;
+    background: #0E1621;
+   
+}
+
+.input-container {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.message-input {
+    border: 1px solid transparent;
+    height: 30px;
+    flex-grow: 1;
+    margin: 0 10px 0 0;
+    background: #17212B;
+}
+
+.send-button {
+    border: 1px solid transparent;
+    color: #FFFFFF;
+    background: #5188C1;
+    border-radius: 5px;
+    padding: 6px 21px;
+    font-size: 15px;
+}
+
+#login {
+    position: absolute;
+    top: 20vh;
+    width: 452px;
+    height: 497px;
+    background: #17212B;
+    box-shadow: 0 0 10px #7f7f7f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-field {
+    margin: 15px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.login-field input {
+    font-size: 16px;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 42px;
+}
+
+.login-submit {
+    color: #FFFFFF;
+    background: #5188C1;
+    border-radius: 5px;
+    padding: 13px 40px;
+    font-size: 15px;
+}
+
+.message-item {
+    display: flex;
+}
+
+.message-item-system {
+    font-size: 14px;
+    color: gray;
+}
+
+.message-item~.message-item {
+    margin-top: 15px;
+}
+
+.message-item-right {
+    flex-grow: 1;
+}
+
+.message-item-header {
+    display: flex;
+    align-items: center;
+}
+
+.message-item-header-name {
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.message-item-header-time {
+    color: gray;
+    font-size: 12px;
+}
+.login-name-input {
+    border: 1px solid transparent;
+    border-bottom: 2px solid #465461;
+    background: #17212B;
+    color: #FFFFFF;
+}
+.login__title {
+    color: #FFFFFF;
+    font-size: 24px;
+}
+.login__text {
+    color: #7F91A4;
+    font-size: 15px;
+    text-align-last: center;
+    width: 75%;
+}
+.login__decoration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left-side__photo {
+    margin-bottom: 26px;
+}
