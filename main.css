@@ -7,6 +7,11 @@ body,
     padding: 0;
     margin: 0;
     background: #17212B;
+    color: #FFFFFF;
+}
+.button {
+   border: 1px solid transparent;
+   background-color: transparent;
 }
 #main.hidden {
     display: none;
@@ -36,8 +41,9 @@ body,
 }
 
 .user-name {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
+    color: #5387C1;
 }
 
 .user-photo,
@@ -69,6 +75,7 @@ body,
 .messages-container {
     flex-grow: 1;
     background: #0E1621;
+    color: #FFFFFF;
    
 }
 
@@ -84,6 +91,7 @@ body,
     flex-grow: 1;
     margin: 0 10px 0 0;
     background: #17212B;
+    color: #FFFFFF;
 }
 
 .send-button {
@@ -106,6 +114,10 @@ body,
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+#login.hidden {
+    display: none;
 }
 
 .login-field {
@@ -187,3 +199,17 @@ body,
 .left-side__photo {
     margin-bottom: 26px;
 }
+.left-side__button {
+    border: 1px solid transparent;
+    height: 15px;
+    background: #17212B;
+}
+.user-photo__input {
+    display: none;
+}
+
+img {
+    max-width: 80vw;
+    max-height: 80vh;
+}
+
